@@ -4,7 +4,8 @@
   display: flex;
   align-items: center;
   border-bottom: 0px;
-  background: $white-color;
+  // background: $white-color;
+  background-color: rgba(255, 255, 255, 0);
   font-weight: 400;
   color: $dark-blue-text;
   padding: 0rem 5.6rem;
@@ -13,14 +14,14 @@
   left: 0;
   bottom: 0;
   right: 0;
-  z-index: -1;
+  // z-index: -1;
 
   // If you want to set a background image on the hero section, uncomment these with your custom image
-
+  /*
   background: url("/src/assets/scene.jpg");
   background-position: center;
   background-size: cover;
-
+  */
   @include respond(phone) {
     padding: 0rem $default-font-size;
   }
