@@ -1,8 +1,16 @@
 #projects {
-  background-color: $white-color;
+  // background-color: $white-color;
   color: $dark-blue-text;
   margin-top: -10rem;
   padding-top: 15rem;
+
+  // propiedades de patron de lineas - inicio
+  background-color: #fff;
+  background-image:
+  linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px),
+  linear-gradient(#eee .1em, transparent .1em);
+  background-size: 100% 1.2em;
+  // propiedades de patron de lineas - fin
 
   @include respond(tab-land) {
     margin-top: 0;

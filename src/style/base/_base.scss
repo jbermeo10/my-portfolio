@@ -5,4 +5,25 @@ html {
 body {
   font-family: 'Montserrat', sans-serif;
   text-align: center;
+  margin: 0; // agregando propiedad para particulas
 }
+
+// Agregando propiedades para particulas - inicio
+#top {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  // // Propiedades de codepen
+  // position: absolute;
+  // width: 100%;
+  // height: 100%;
+  // background-color: #ffffff;
+  // background-image: url("jack-church.jpg"); //
+  // background-repeat: no-repeat;
+  // background-size: cover;
+  // background-position: 50% 50%;
+}
+// Agregando propiedades para particulas - fin
